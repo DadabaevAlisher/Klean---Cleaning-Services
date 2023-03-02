@@ -11,8 +11,8 @@ class PageController extends Controller
         return view('main');
     }
 
-    public function welcome()
+    public function about()
     {
-        return view('welcome');
+        return view('about');
     }
 }

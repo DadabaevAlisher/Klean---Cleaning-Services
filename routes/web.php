@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PageController::class, 'main']);
-Route::get('/welcome', [PageController::class, 'welcome']);
+Route::get('/about', [PageController::class, 'about'])->name('about');
 
 
 

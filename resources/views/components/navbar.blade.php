@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav mr-auto py-0">
             <a href="/" class="nav-item nav-link active">Bosh sahifa</a>
-            <a href="/about.php" class="nav-item nav-link">Biz haqimizda</a>
+            <a href="/about" class="nav-item nav-link">Biz haqimizda</a>
             <a href="service.html" class="nav-item nav-link">Service</a>
             <a href="project.html" class="nav-item nav-link">Project</a>
             <div class="nav-item dropdown">
