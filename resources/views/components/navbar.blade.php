@@ -7,14 +7,14 @@
     </button>
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav mr-auto py-0">
-            <a href="/" class="nav-item nav-link active">Bosh sahifa</a>
+            <a href="/" class="nav-item nav-link">Bosh sahifa</a>
             <a href="{{ route('about') }}" class="nav-item nav-link">Biz haqimizda</a>
             <a href="{{ route('services') }}" class="nav-item nav-link">Xizmatlar</a>
             <a href="{{ route('projects')}}" class="nav-item nav-link">Loyihalar</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sahifalar</a>
                 <div class="dropdown-menu rounded-0 m-0">
-                    <a href="blog.html" class="dropdown-item">Latest Blog</a>
+                    <a href="{{ route('blog') }}" class="dropdown-item">Blog</a>
                     <a href="single.html" class="dropdown-item">Blog Detail</a>
                 </div>
             </div>
