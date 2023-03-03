@@ -1,6 +1,6 @@
 <x-layouts.main>
     <x-slot:title>
-        Biz haqimizda
+        Loyihalar
     </x-slot:title>
 
     <x-page-header>
