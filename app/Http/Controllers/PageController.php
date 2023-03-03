@@ -33,7 +33,7 @@ class PageController extends Controller
 
     public function single()
     {
-        return view('');
+        return view('single');
     }
 
     public function contact()
