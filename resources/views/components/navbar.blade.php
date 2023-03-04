@@ -10,14 +10,8 @@
             <a href="/" class="nav-item nav-link">Bosh sahifa</a>
             <a href="{{ route('about') }}" class="nav-item nav-link">Biz haqimizda</a>
             <a href="{{ route('services') }}" class="nav-item nav-link">Xizmatlar</a>
-            <a href="{{ route('projects')}}" class="nav-item nav-link">Loyihalar</a>
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Boshqa sahifalar</a>
-                <div class="dropdown-menu rounded-0 m-0">
-                    <a href="{{ route('blog') }}" class="dropdown-item">Blog</a>
-                    <a href="{{ route('single')}}" class="dropdown-item">Yagona</a>
-                </div>
-            </div>
+            <a href="{{ route('projects') }}" class="nav-item nav-link">Loyihalar</a>
+            <a href="{{ route('posts.index') }}" class="nav-item nav-link">Blog</a>
             <a href="{{ route('contact') }}" class="nav-item nav-link">Aloqa</a>
         </div>
         <a href="" class="btn btn-primary mr-3 d-none d-lg-block">Get A Quote</a>

@@ -1,10 +1,10 @@
 <x-layouts.main>
     <x-slot:title>
-        Blog
+        Post
     </x-slot:title>
 
     <x-page-header>
-        Blog
+        Post
     </x-page-header>
 
     <!-- Blog Start -->
