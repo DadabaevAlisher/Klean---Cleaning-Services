@@ -23,7 +23,7 @@ Route::get('/projects', [PageController::class, 'projects'])->name('projects');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 
 
-Route::resource('posts', PostController::class);
+Route::resource('/posts', PostController::class);
 
 // Route::get('/posts', [PostController::class, 'index'])->name('posts.index');
 // Route::get('/posts{post}', [PostController::class, 'show'])->name('posts.show');
@@ -32,14 +32,6 @@ Route::resource('posts', PostController::class);
 // Route::get('/posts/{post}/edit', [PostController::class, 'edit'])->name('posts.edit');
 // Route::put('/posts/{post}/edit', [PostController::class, 'update'])->name('posts.update');
 // Route::put('/posts/{post}/delete', [PostController::class, 'delete'])->name('posts.delete');
-
-
-
-
-
-
-
-
 
 
 
