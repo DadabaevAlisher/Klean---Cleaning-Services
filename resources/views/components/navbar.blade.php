@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
-    <a href="" class="navbar-brand d-block d-lg-none">
+    <a href="/" class="navbar-brand d-block d-lg-none">
         <h1 class="m-0 display-4 text-primary">Klean</h1>
     </a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -12,7 +12,7 @@
             <a href="{{ route('services') }}" class="nav-item nav-link">Xizmatlar</a>
             <a href="{{ route('projects')}}" class="nav-item nav-link">Loyihalar</a>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sahifalar</a>
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Boshqa sahifalar</a>
                 <div class="dropdown-menu rounded-0 m-0">
                     <a href="{{ route('blog') }}" class="dropdown-item">Blog</a>
                     <a href="{{ route('single')}}" class="dropdown-item">Yagona</a>
