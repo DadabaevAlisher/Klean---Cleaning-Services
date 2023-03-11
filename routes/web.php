@@ -32,12 +32,3 @@ Route::resource('/posts', PostController::class);
 // Route::get('/posts/{post}/edit', [PostController::class, 'edit'])->name('posts.edit');
 // Route::put('/posts/{post}/edit', [PostController::class, 'update'])->name('posts.update');
 // Route::put('/posts/{post}/delete', [PostController::class, 'delete'])->name('posts.delete');
-
-
-
-
-
-// Route::get('/users', [userController::class, 'index']);
-// Route::get('/users/create', [userController::class, 'create']);
-// Route::get('/users/{user}', [userController::class, 'show']);
-// Route::get('users/{user}/edit', [userController::class, 'edit']);
